@@ -1,3 +1,9 @@
+# revision 21574
+# category Package
+# catalog-ctan /macros/latex/contrib/piano
+# catalog-date 2011-03-01 13:06:36 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-piano
 Version:	1.0
 Release:	1
@@ -40,6 +46,7 @@ is included in the README file.).
 %files
 %{_texmfdistdir}/tex/latex/piano/piano.sty
 %doc %{_texmfdistdir}/doc/latex/piano/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ is included in the README file.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
