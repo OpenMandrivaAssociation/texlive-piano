@@ -1,6 +1,6 @@
 Name:		texlive-piano
 Version:	21574
-Release:	1
+Release:	2
 Summary:	Typeset a basic 2-octave piano diagram
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/piano
