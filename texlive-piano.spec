@@ -3,7 +3,7 @@ Version:	21574
 Release:	2
 Summary:	Typeset a basic 2-octave piano diagram
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/piano
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/piano
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/piano.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/piano.doc.r%{version}.tar.xz
